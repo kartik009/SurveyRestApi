@@ -1,0 +1,152 @@
+Form 
+
+
+ Title 
+
+ Questtion1  yes no         yes     
+
+ Question2  yes no          no
+
+ Post Request 
+
+ {
+  "title": "sample string 1",
+  "questions": [
+    "sample string 1",
+    "sample string 2"
+  ]
+}
+
+
+ Post Request 
+
+ {
+  "sid": 1,
+  "answers": [
+      {
+          q1: false,
+      },
+      {
+          q2: 
+      }
+  ]
+    q2:true
+  }
+}
+
+form
+
+title demo 
+twitter ? yes no 
+
+distribut 
+
+user1
+
+twitter yes
+
+user2
+
+twitter no
+
+user3 
+
+twitter
+
+facebook yes
+
+total 3
+
+ Post Request 
+
+ {
+  "sid": 1,
+  "answers": [
+      {
+          q1: false,res=null
+      },
+      {
+          q2: 
+      }
+  ]
+    q2:true
+  }
+}
+Result answer yes 1 no 1 ,total
+
+answer sid  answes[ q1:false, res:{total :25, yes :13 no 11 }  ]
+
+
+servery Form = [{
+    sid: 1,
+    title: "Form 1"
+    Questions : [{ qid:1, Text: "q1 ", yes,no,total}  { , "q2 "} , {  "q3" } ]
+
+}]
+
+answer
+{
+ {
+  "sid": 1,
+  "answers": [
+      { qid:1,  ans:false},
+      {
+          qid:2, ans:null 
+      }
+  ]
+    q2:true
+  }
+}
+
+
+
+
+/Result
+
+Form sid :1 
+
+Question Twitter total 100 yes 91 no9
+
+Question 
+
+
+
+
+-----
+form
+[]
+
+
+ans{[
+
+]}
+
+1
+
+
+ans
+
+
+///Final 
+
+{
+    "sid": 1,
+    "title": "Form 1",
+    "Questions" : [{ "qid":1, "Text": "q1 ", "yes" : 0 ,"no" : 0,"total":0},
+    { "qid":2, "Text": "q2 ", "yes" : 0 ,"no" : 0,"total":0},
+    { "qid":3, "Text": "q3 ", "yes" : 0 ,"no" : 0,"total":0}
+    ]
+}
+
+{
+  "sid": 1,
+  "answers": [
+      { "qid":1,  "ans":false},
+      {
+          "qid":2, "ans":null 
+      },
+	{ "qid":1,  "ans":true}
+  ]
+}
+ 
+
